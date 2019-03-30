@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "module": "commonjs",
+        "outDir": "./dist",
+        "declarationDir": "./dist",
+        "rootDir": "./",
+        "lib": [
+            "es2018"
+        ],
+        "allowJs": false,
+        "noUnusedLocals": true,
+        "strict": true,
+        "sourceMap": true,
+        "declaration": true,
+        "incremental": true,
+        "target": "es2018"
+    },
+    "exclude": [
+        "dist/**",
+        "node_modules/**"
+    ]
+}

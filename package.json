@@ -1,0 +1,55 @@
+{
+  "name": "aws-sdk-paginator",
+  "version": "0.1.1",
+  "description": "Converts aws-sdk requests into AsyncIterable",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spoqa/aws-sdk-paginator-ts.git"
+  },
+  "keywords": [
+    "amazon",
+    "aws",
+    "AsyncIterable",
+    "AsyncIterator",
+    "utility",
+    "async"
+  ],
+  "author": "Eunchong Yu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/spoqa/aws-sdk-paginator-ts/issues"
+  },
+  "homepage": "https://github.com/spoqa/aws-sdk-paginator-ts#readme",
+  "dependencies": {
+    "@types/node": "^10.0",
+    "aws-sdk": "^2.255.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.11",
+    "aws-sdk-mock": "^4.3.1",
+    "jest": "^24.5.0",
+    "ts-jest": "^24.0.1",
+    "typescript": "^3.1"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "testRegex": "test/.*\\.spec\\.tsx?$",
+    "testEnvironment": "node",
+    "moduleFileExtensions": [
+      "ts",
+      "js",
+      "node"
+    ],
+    "collectCoverageFrom": [
+      "**/*.ts"
+    ]
+  }
+}
